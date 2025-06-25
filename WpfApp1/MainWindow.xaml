@@ -9,26 +9,26 @@
     <Grid x:Name="grid1">
         
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.4*"></RowDefinition>
-            <RowDefinition Height="0.2*"></RowDefinition>
-            <RowDefinition Height="0.4*"></RowDefinition>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.45*"/>
+            <RowDefinition Height="0.45*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.3*"></ColumnDefinition>
-            <ColumnDefinition Width="0.7*"></ColumnDefinition>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
-            
+            <ColumnDefinition Width="0.7*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Button Grid.Column="0" Grid.Row="0" Content="Stroka 0 Stolbec 0" Grid.ColumnSpan="5"/>
-        <Button Grid.Column="1" Grid.Row="1" Content="Объединение трех столбцов" Grid.ColumnSpan="4" />
-        <Button Grid.Column="0" Grid.Row="1" Content="Win32" Background="Aqua" Foreground="White"/>
-        <Button Grid.Column="0" Grid.Row="2" Content="Win32" Background="Aqua" Foreground="White"   />
-
-        <Button Grid.Column="2" Grid.Row="2" Content="Win32" Background="Aqua" Foreground="White"/>
-        <Button Grid.Column="3" Grid.Row="2" Content="Win32" Background="Aqua" Foreground="White"/>
-        <Button Grid.Column="4" Grid.Row="2" Content="Win32" Background="Aqua" Foreground="White"/>
+            <Button Grid.Column="0" Grid.Row="0" Background="Gray" Content="Top Hello" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Grid.ColumnSpan="2"/>
+            <Button Grid.Column="0" Grid.Row="1" Background="Chartreuse" Content="Top Hello1" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Grid.RowSpan="2" />
+            <Button Grid.Column="1" Grid.Row="1" Background="Aquamarine" Content="Top Hello2" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"  />
+            <Button Grid.Column="1" Grid.Row="2" Background="MediumPurple" Content="Top Hello3" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"  />
+        <!-- <Button Grid.Column="0" Grid.Row="0" Content="WinUI 3.0:the Windows UI platform "  Grid.ColumnSpan="6" Background="Indigo" Foreground="White" FontSize="27" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White" /> -->
+        <!-- <Button Grid.Column="1" Grid.Row="1" Content="Universal Windows Platform" Grid.ColumnSpan="5"  Background="Green" Foreground="White" FontSize="27" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White"/> -->
+        <!-- <Button Grid.Column="0" Grid.Row="1" Content="Win32" Background="Blue" Foreground="White" FontSize="27" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White" /> -->
+        <!-- <Button Grid.Column="0" Grid.Row="2" Content="Windows PCs" Background="Aqua" Foreground="Blue" FontSize="20" FontStyle="Italic" FontWeight="Medium"  Grid.ColumnSpan="2" BorderThickness="5" BorderBrush="White" /> -->
+        <!-- <Button Grid.Column="2" Grid.Row="2" Content="Xbox" Background="Aqua" Foreground="Blue" FontSize="20" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White" /> -->
+        <!-- <Button Grid.Column="3" Grid.Row="2" Content="HoloLens" Background="Aqua" Foreground="Blue" FontSize="20" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White" /> -->
+        <!-- <Button Grid.Column="4" Grid.Row="2" Content="Surface&#x0a;Hub" Background="Aqua" Foreground="Blue" FontSize="20" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White" /> -->
+        <!-- <Button Grid.Column="5" Grid.Row="2" Content="Devices+&#x0a;IoT" Background="Aqua" Foreground="Blue" FontSize="20" FontStyle="Italic" FontWeight="Medium"  BorderThickness="5" BorderBrush="White"/> -->
         
         <!-- <Button x:Name="myButton" Width="70" Height="300" Content="Кнопка" > -->
         <!--     <Button.HorizontalAlignment> -->
