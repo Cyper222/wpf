@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="640" Width="800"  BorderThickness="2" Background="Chartreuse" BorderBrush="Blue" Cursor="Pen" FontStyle="Italic"  >
+    <Grid x:Name="grid1">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.4*"></RowDefinition>
+            <RowDefinition Height="0.2*"></RowDefinition>
+            <RowDefinition Height="0.4*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.3*"></ColumnDefinition>
+            <ColumnDefinition Width="0.7*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" Grid.Row="0" Content="Stroka 0 Stolbec 0" Grid.ColumnSpan="5"/>
+        <Button Grid.Column="1" Grid.Row="1" Content="Объединение трех столбцов" Grid.ColumnSpan="4" />
+        <Button Grid.Column="0" Grid.Row="1" Content="Win32" Background="Aqua" Foreground="White"/>
+        <Button Grid.Column="0" Grid.Row="2" Content="Win32" Background="Aqua" Foreground="White"   />
+
+        <Button Grid.Column="2" Grid.Row="2" Content="Win32" Background="Aqua" Foreground="White"/>
+        <Button Grid.Column="3" Grid.Row="2" Content="Win32" Background="Aqua" Foreground="White"/>
+        <Button Grid.Column="4" Grid.Row="2" Content="Win32" Background="Aqua" Foreground="White"/>
+        
+        <!-- <Button x:Name="myButton" Width="70" Height="300" Content="Кнопка" > -->
+        <!--     <Button.HorizontalAlignment> -->
+        <!--         Right -->
+        <!--     </Button.HorizontalAlignment> -->
+        <!--     <Button.Background> -->
+        <!--         <SolidColorBrush Opacity="1000" Color="Brown"/> -->
+        <!--     </Button.Background> -->
+        <!--     <Button.BorderThickness>5</Button.BorderThickness> -->
+        <!--     <Button.BorderBrush>Black</Button.BorderBrush> -->
+        <!--     <Button.Cursor>Hand</Button.Cursor> -->
+        <!-- </Button> -->
+        <!-- <Button x:Name="myButton1" Width="70" Height="300" Content="Кнопка" > -->
+        <!--     <Button.HorizontalAlignment> -->
+        <!--         Center -->
+        <!--     </Button.HorizontalAlignment> -->
+        <!--     <Button.Background> -->
+        <!--         <SolidColorBrush Opacity="1000" Color="Brown"/> -->
+        <!--     </Button.Background> -->
+        <!--     <Button.BorderThickness>5</Button.BorderThickness> -->
+        <!--     <Button.BorderBrush>Black</Button.BorderBrush> -->
+        <!--     <Button.Cursor>Hand</Button.Cursor> -->
+        <!-- </Button> -->
+        
+
+    
+    </Grid>
+</Window>
