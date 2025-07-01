@@ -15,4 +15,11 @@
       </Resource>
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Sound\click.wav" />
+      <Content Include="Sound\click.wav">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

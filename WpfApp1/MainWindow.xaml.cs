@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Media;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
@@ -31,12 +32,16 @@ public partial class MainWindow : Window
         string value = button.Content.ToString();
         currentImput += value;
         outputText.Text = currentImput;
+        SoundPlayer sound = new SoundPlayer("Sound/click.wav");
+        sound.Play();
     }
 
     private void ButtonDelete(object sender, RoutedEventArgs e)
     {
         currentImput = "";
         outputText.Text = "0";
+        SoundPlayer sound = new SoundPlayer("Sound/click.wav");
+        sound.Play();
     }
     
     private void ButtonDeleteLast(object sender, RoutedEventArgs e)
@@ -46,6 +51,8 @@ public partial class MainWindow : Window
             currentImput = currentImput.Substring(0, currentImput.Length - 1);
             outputText.Text = string.IsNullOrEmpty(currentImput) ? "0" : currentImput;
         }
+        SoundPlayer sound = new SoundPlayer("Sound/click.wav");
+        sound.Play();
     }
 
     private void Equals_Clik(object sender, RoutedEventArgs e)
@@ -61,6 +68,8 @@ public partial class MainWindow : Window
             currentImput = "0";
 
         }
+        SoundPlayer sound = new SoundPlayer("Sound/click.wav");
+        sound.Play();
     }
 }
    
