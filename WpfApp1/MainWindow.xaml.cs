@@ -1,6 +1,7 @@
 ﻿using System.Text;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -16,25 +17,51 @@ namespace WpfApp1;
 /// </summary>
 public partial class MainWindow : Window
 {
+    private string currentImput = "";
     public MainWindow()
     {
         InitializeComponent();
-        // Button myButton = new Button();
-        // myButton.Width = 70;
-        // myButton.Height = 300;
-        // myButton.Content = "Кнопка";
-        // myButton.Foreground = Brushes.Black;
-        // myButton.Background = Brushes.Red;
-        // myButton.HorizontalAlignment = HorizontalAlignment.Left;
-        // myButton.Cursor = Cursors.Hand;
-        //
-        // grid1.Children.Add(myButton);
-        // myButton.Click += Button_Click;
+        
+
     }
 
     private void Button_Click(object sender, RoutedEventArgs e)
     {
-        MessageBox.Show("Hello World!");
+        var button = sender as Button;
+        string value = button.Content.ToString();
+        currentImput += value;
+        outputText.Text = currentImput;
+    }
+
+    private void ButtonDelete(object sender, RoutedEventArgs e)
+    {
+        currentImput = "";
+        outputText.Text = "0";
     }
     
+    private void ButtonDeleteLast(object sender, RoutedEventArgs e)
+    {
+        if (!string.IsNullOrEmpty(currentImput))
+        {
+            currentImput = currentImput.Substring(0, currentImput.Length - 1);
+            outputText.Text = string.IsNullOrEmpty(currentImput) ? "0" : currentImput;
+        }
+    }
+
+    private void Equals_Clik(object sender, RoutedEventArgs e)
+    {
+        try
+        {
+            var result = new System.Data.DataTable().Compute(currentImput, null);
+            outputText.Text = result.ToString();
+        }
+        catch
+        {
+            outputText.Text = "Error";
+            currentImput = "0";
+
+        }
+    }
 }
+   
+

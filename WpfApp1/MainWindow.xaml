@@ -1,113 +1,113 @@
-﻿<!-- <Window x:Class="WpfApp1.MainWindow" -->
-<!--         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" -->
-<!--         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" -->
-<!--         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" -->
-<!--         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" -->
-<!--         xmlns:local="clr-namespace:WpfApp1" -->
-<!--         mc:Ignorable="d" -->
-<!--         Title="MainWindow" Height="640" Width="800"  BorderThickness="2" Background="Chartreuse" BorderBrush="Blue" Cursor="Pen" FontStyle="Italic"  > -->
-<!--     <Grid x:Name="grid1"> -->
-        
-        <!-- <Grid.RowDefinitions> -->
-        <!--     <RowDefinition Height="0.1*"/> -->
-        <!--     <RowDefinition Height="0.45*"/> -->
-        <!--     <RowDefinition Height="0.45*"/> -->
-        <!-- </Grid.RowDefinitions> -->
-        <!-- <Grid.ColumnDefinitions> -->
-        <!--     <ColumnDefinition Width="0.7*"/> -->
-        <!--     <ColumnDefinition Width="*"/> -->
-        <!-- </Grid.ColumnDefinitions> -->
-        <!--     <Button Grid.Column="0" Grid.Row="0" Background="Gray" Content="Top Hello" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Grid.ColumnSpan="2"/> -->
-        <!--     <Button Grid.Column="0" Grid.Row="1" Background="Chartreuse" Content="Top Hello1" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Grid.RowSpan="2" /> -->
-        <!--     <Button Grid.Column="1" Grid.Row="1" Background="Aquamarine" Content="Top Hello2" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"  /> -->
-        <!--     <Button Grid.Column="1" Grid.Row="2" Background="MediumPurple" Content="Top Hello3" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"  /> -->
-        <!-- <Button Grid.Column="0" Grid.Row="0" Content="WinUI 3.0:the Windows UI platform "  Grid.ColumnSpan="6" Background="Indigo" Foreground="White" FontSize="27" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White" /> -->
-        <!-- <Button Grid.Column="1" Grid.Row="1" Content="Universal Windows Platform" Grid.ColumnSpan="5"  Background="Green" Foreground="White" FontSize="27" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White"/> -->
-        <!-- <Button Grid.Column="0" Grid.Row="1" Content="Win32" Background="Blue" Foreground="White" FontSize="27" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White" /> -->
-        <!-- <Button Grid.Column="0" Grid.Row="2" Content="Windows PCs" Background="Aqua" Foreground="Blue" FontSize="20" FontStyle="Italic" FontWeight="Medium"  Grid.ColumnSpan="2" BorderThickness="5" BorderBrush="White" /> -->
-        <!-- <Button Grid.Column="2" Grid.Row="2" Content="Xbox" Background="Aqua" Foreground="Blue" FontSize="20" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White" /> -->
-        <!-- <Button Grid.Column="3" Grid.Row="2" Content="HoloLens" Background="Aqua" Foreground="Blue" FontSize="20" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White" /> -->
-        <!-- <Button Grid.Column="4" Grid.Row="2" Content="Surface&#x0a;Hub" Background="Aqua" Foreground="Blue" FontSize="20" FontStyle="Italic" FontWeight="Medium" BorderThickness="5" BorderBrush="White" /> -->
-        <!-- <Button Grid.Column="5" Grid.Row="2" Content="Devices+&#x0a;IoT" Background="Aqua" Foreground="Blue" FontSize="20" FontStyle="Italic" FontWeight="Medium"  BorderThickness="5" BorderBrush="White"/> -->
-        
-        <!-- <Button x:Name="myButton" Width="70" Height="300" Content="Кнопка" > -->
-        <!--     <Button.HorizontalAlignment> -->
-        <!--         Right -->
-        <!--     </Button.HorizontalAlignment> -->
-        <!--     <Button.Background> -->
-        <!--         <SolidColorBrush Opacity="1000" Color="Brown"/> -->
-        <!--     </Button.Background> -->
-        <!--     <Button.BorderThickness>5</Button.BorderThickness> -->
-        <!--     <Button.BorderBrush>Black</Button.BorderBrush> -->
-        <!--     <Button.Cursor>Hand</Button.Cursor> -->
-        <!-- </Button> -->
-        <!-- <Button x:Name="myButton1" Width="70" Height="300" Content="Кнопка" > -->
-        <!--     <Button.HorizontalAlignment> -->
-        <!--         Center -->
-        <!--     </Button.HorizontalAlignment> -->
-        <!--     <Button.Background> -->
-        <!--         <SolidColorBrush Opacity="1000" Color="Brown"/> -->
-        <!--     </Button.Background> -->
-        <!--     <Button.BorderThickness>5</Button.BorderThickness> -->
-        <!--     <Button.BorderBrush>Black</Button.BorderBrush> -->
-        <!--     <Button.Cursor>Hand</Button.Cursor> -->
-        <!-- </Button> -->
-        
-
-<!--      -->
-<!--     </Grid> -->
-<!-- </Window> -->
-
-
-
-<Window x:Class="WpfApp1.MainWindow"
+﻿<Window x:Class="WpfApp1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="640" Width="800"  BorderThickness="2" Background="Chartreuse" BorderBrush="Blue" Cursor="Pen" FontStyle="Italic"  >
-    <Grid x:Name="grid1">
-        <!-- <StackPanel Orientation="Vertical"  > -->
-        <!--     <Button Background="Brown" Content="1" MinWidth="200" MinHeight="200"  /> -->
-        <!--     <Button Background="Blue" Content="2" MinWidth="200" MinHeight="200"/> -->
-        <!--     <Button Background="Chocolate" Content="3" MinWidth="200" MinHeight="200"/> -->
-        <!--     <Button Background="Black" Content="3" MinWidth="200" MinHeight="200"/> -->
-        <!-- </StackPanel> -->
-        <!-- <DockPanel LastChildFill="True"> -->
-        <!--     <Button DockPanel.Dock="Top" Background="Black" Content="Верхняя кнопка" Foreground="White" Height="200"/> -->
-        <!--     <Button DockPanel.Dock="Left" Background="Black" Content="Левая кнопка" Foreground="White"  /> -->
-        <!--     <Button DockPanel.Dock="Right" Background="Black" Content="Правая кнопка" Foreground="White"/> -->
-        <!--     <Button DockPanel.Dock="Bottom" Background="Black" Content="Нижняя кнопка" Foreground="White"/> -->
-        <!--     <Button  Background="Black" Content="Центральная кнопка" Foreground="White"/> -->
-        <!-- </DockPanel> -->
-        <!-- <WrapPanel ItemHeight="100" ItemWidth="100" Orientation="Vertical"> -->
-        <!--     <Button Background="Red" Content="1" /> -->
-        <!--     <Button Background="Red" Content="2"/> -->
-        <!--     <Button Background="Red" Content="3" /> -->
-        <!--     <Button Background="Red" Content="4" /> -->
-        <!--     <Button Background="Red" Content="5" /> -->
-        <!--     <Button Background="Red" Content="6"/> -->
-        <!--     <Button Background="Red" Content="7"/> -->
-        <!--     <Button Background="Red" Content="8"/> -->
-        <!-- </WrapPanel> -->
-        
-        <!-- <Canvas Background="Blue"> -->
-        <!--     <GridSplitter/> -->
-        <!--     <Button Background="AliceBlue" Content="Top 20 left 40" Canvas.Top="20" Canvas.Left="40" Margin="10 80 10 0"/> -->
-        <!--     <Button Background="AliceBlue" Content="Top 20 left 40" Canvas.Top="20" Canvas.Right="40" /> -->
-        <!--     <Button Background="AliceBlue" Content="Top 20 left 40" Canvas.Bottom="20" Canvas.Left="40"/> -->
-        <!--     <Button Background="AliceBlue" Content="Top 20 left 40" Canvas.Bottom="20" Canvas.Right="40" /> -->
-        <!-- </Canvas> -->
-        <!-- <Button Width="60" Height="30" Panel.ZIndex="2" Margin="10 10 0 0" Content="Odin"/> -->
-        <!-- <Button Width="60" Height="30" Panel.ZIndex="1" Margin="45 45 0 0" Content="Odin"/> -->
-        <!-- <Button Width="60" Height="30" Panel.ZIndex="0" Margin="75 75 0 0" Content="Odin"/> -->
-        
-        
-        
-        
-
+        Title="Калькулятор" Height="260" Width="220"  BorderThickness="2" Background="LightSteelBlue" BorderBrush="Blue" FontStyle="Italic" Icon="calculator.ico"
+        ResizeMode="NoResize">
     
+        <Window.Resources>
+                    <Style x:Key="Style" TargetType="Button" >
+                        <Setter Property="Background" Value="LightSteelBlue"/>
+                        <Setter Property="BorderBrush" Value="Blue"/>
+                        <Setter Property="BorderThickness" Value="2"/>
+                        <Setter Property="Effect">
+                            <Setter.Value>
+                                <DropShadowEffect Color="Black" Direction="270" ShadowDepth="5" BlurRadius="10" Opacity="0.5"/>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Grid>
+                                        <Border x:Name="border"
+                                                Background="{TemplateBinding Background}"
+                                                BorderBrush="{TemplateBinding BorderBrush}"
+                                                BorderThickness="{TemplateBinding BorderThickness}"
+                                                CornerRadius="10"
+                                                Padding="{TemplateBinding Padding}">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </Grid>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="Blue"/>
+                                        </Trigger>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter TargetName="border" Property="RenderTransform">
+                                                <Setter.Value>
+                                                    <TranslateTransform Y="2"/>
+                                                </Setter.Value>
+                                            </Setter>
+                                            <Setter Property="Effect">
+                                                <Setter.Value>
+                                                    <DropShadowEffect Color="Black" Direction="270" ShadowDepth="2" BlurRadius="5" Opacity="0.3"/>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+        </Window.Resources>
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <Border Grid.Row="0" BorderBrush="Blue" BorderThickness="2" CornerRadius="10"  Padding="3"  Height="30" Width="180" VerticalAlignment="Top" Margin="8">
+            <TextBlock x:Name="outputText" FlowDirection="RightToLeft" Text="Калькулятор" FontSize="14" FontStyle="Italic"     />
+        </Border>
+        <Grid Grid.Row="1" x:Name="grid" Cursor="Hand" >
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition  Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions >
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+           
+            <Button x:Name="C" Style="{StaticResource Style}" Grid.Row="0" Grid.Column="0" Width="35" Height="25" Content="C" Margin="3" Click="ButtonDelete"/>
+            <Button x:Name="Delet" Style="{StaticResource Style}" Grid.Row="0" Grid.Column="1" Width="35" Height="25" Content="-->" Margin="3" Click="ButtonDeleteLast" />
+            <Button x:Name="PlusMinus" Style="{StaticResource Style}" Grid.Row="0" Grid.Column="2" Width="35" Height="25" Content="+/-" Margin="3" Click="Button_Click" />
+            <Button x:Name="Plus" Style="{StaticResource Style}" Grid.Row="0" Grid.Column="3" Width="35" Height="25" Content="+" Margin="3" Click="Button_Click" />
+            
+            <Button x:Name="Sem" Style="{StaticResource Style}" Grid.Row="1" Grid.Column="0" Width="35" Height="25" Content="7" Margin="5" Click="Button_Click" />
+            <Button x:Name="Vosem" Style="{StaticResource Style}" Grid.Row="1" Grid.Column="1" Width="35" Height="25" Content="8" Margin="5" Click="Button_Click" />
+            <Button x:Name="Devyat" Style="{StaticResource Style}" Grid.Row="1" Grid.Column="2" Width="35" Height="25" Content="9" Margin="5" Click="Button_Click" />
+            <Button x:Name="Minus" Style="{StaticResource Style}" Grid.Row="1" Grid.Column="3" Width="35" Height="25" Content="-" Margin="5" Click="Button_Click" />
+            
+            
+            <Button x:Name="four" Style="{StaticResource Style}" Grid.Row="2" Grid.Column="0" Width="35" Height="25" Content="4" Margin="5" Click="Button_Click" />
+            <Button x:Name="five" Style="{StaticResource Style}" Grid.Row="2" Grid.Column="1" Width="35" Height="25" Content="5" Margin="5" Click="Button_Click" />
+            <Button x:Name="six" Style="{StaticResource Style}" Grid.Row="2" Grid.Column="2" Width="35" Height="25" Content="6" Margin="5" Click="Button_Click" />
+            <Button x:Name="ymnozenie" Style="{StaticResource Style}" Grid.Row="2" Grid.Column="3" Width="35" Height="25" Content="*" Margin="5" Click="Button_Click" />
+            
+            <Button x:Name="one" Style="{StaticResource Style}" Grid.Row="3" Grid.Column="0" Width="35" Height="25" Content="1" Margin="5" Click="Button_Click" />
+            <Button x:Name="two" Style="{StaticResource Style}" Grid.Row="3" Grid.Column="1" Width="35" Height="25" Content="2" Margin="5" Click="Button_Click" />
+            <Button x:Name="three" Style="{StaticResource Style}" Grid.Row="3" Grid.Column="2" Width="35" Height="25" Content="3" Margin="5" Click="Button_Click" />
+            <Button x:Name="delenie" Style="{StaticResource Style}" Grid.Row="3" Grid.Column="3" Width="35" Height="25" Content="/" Margin="5" Click="Button_Click" />
+            
+            <Button x:Name="zero" Style="{StaticResource Style}" Grid.Row="4" Grid.Column="0" Width="35" Height="20" Content="0" Margin="5" Click="Button_Click" />
+            <Button x:Name="tochka" Style="{StaticResource Style}" Grid.Row="4" Grid.Column="1" Width="35" Height="20" Content="." Margin="5" Click="Button_Click" />
+            <Button x:Name="rovno" Style="{StaticResource Style}" Grid.Row="4" Grid.Column="2" Width="82" Height="20" Content="=" Margin="5" Grid.ColumnSpan="2" Click="Equals_Clik"/>
+            
+            
+            
+            
+            
+            
+        </Grid>
     </Grid>
+        
 </Window>
